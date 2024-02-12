@@ -30,3 +30,23 @@ N.times do
       puts employees[n - 1].name
   end
 end
+
+N.times do
+  input = gets.chomp.split
+  case input[0]
+  when 'get'
+    number = input[1].to_i
+    name = input[3]
+    employees = Employee.create_employee(number, name)
+    employees << employee
+  when 'getsomeone'
+    n = input[2].to_i
+    puts employees[n - 1].number
+  when 'getnumber'
+    n = input[2].to_i
+    puts employees[n-1].name
+  end
+end
+
+
+

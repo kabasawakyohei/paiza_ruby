@@ -14,7 +14,12 @@
 
 
 # ----------------------------------------- part 4
-array = [8, 1, 3, 3, 8, 1, 1, 3, 8, 8]
-array.each do |n|
-  puts n
-end
+# array = [8, 1, 3, 3, 8, 1, 1, 3, 8, 8]
+# array.each do |n|
+#   puts n
+# end
+
+# ----------------------------------------- part 5
+array = gets.split.map(&:to_i)
+
+puts array

@@ -23,3 +23,6 @@
 array = gets.split.map(&:to_i)
 
 puts array
+
+# ----------------------------------------- part 6
+pus go i
